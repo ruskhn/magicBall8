@@ -62,9 +62,9 @@ function fetchSuccess(data) {
     //remove 1 element at index 0
     responseHistory.splice(0, 1);
     //insert new welement in the end
-    responseHistory.push(data.magic?.answer + "\n");
+    responseHistory.push(data.magic?.answer + " ");
   } else if (responseHistory.length < 10) {
-    responseHistory.push(data.magic?.answer + "\n");
+    responseHistory.push(data.magic?.answer + " ");
   }
   //Update history in html
   history.innerText = responseHistory;

@@ -11,14 +11,13 @@ body {
   font-family: "Josefin Sans", sans-serif;
   background: #8eb5e0;
   position: relative;
-  
 }
 
 a {
-    text-decoration: none;
-    color: #585858;
-    font-size: 1.1rem;
-    font-weight: 500;
+  text-decoration: none;
+  color: #585858;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
 h1 {
@@ -54,7 +53,6 @@ nav {
   display: flex;
   justify-content: space-between;
   width: 90%;
-  min-height: 10vh;
   align-items: center;
   margin: auto;
   z-index: 2;
@@ -101,13 +99,14 @@ h1 {
 }
 /* Answer and Status block */
 .answer {
-    height: 240px;
-    align-items: ce;
+  height: 220px;
+  align-items: ce;
 }
 
 .front-cover img {
   position: relative;
   z-index: -2;
+  max-width: 400px;
 }
 .front-input {
   max-width: 330px;
