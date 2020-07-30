@@ -1,0 +1,21 @@
+{
+  "name": "magicball",
+  "version": "1.0.0",
+  "description": "Magic Ball for Twisted Rope (c) Ruslan Khusainov",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^26.1.0"
+  },
+  "scripts": {
+    "test": "jest test"
+  },
+  "keywords": [
+    "js",
+    "html",
+    "jest",
+    "css"
+  ],
+  "author": "Ruslan Khusainov",
+  "license": "ISC"
+}

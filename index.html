@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Magic 8-balls</title>
+  </head>
+  <body>
+    <div class="cursor"></div>
+    <nav>
+      <ul class="nav-links"> 
+        <li><a href="https://github.com/ruskhn/">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/ruskhn/">Linkedin</a></li>
+      </ul>
+    </nav>
+    <section>
+      <div class="container column">
+        <h1>Magic Ball</h1>
+        <div id="ball" class="front-cover">
+          <img src="./magicBall.png" alt="Magic 8 ball" />
+        </div>
+        <div class="front-input">
+          <div class="container column">
+            <div class="answer">
+              <p id="status" class="eight-ball_title item"></p>
+              <p id="answer" class="eight-ball_title item">Result will be here</p>
+            </div>
+
+            <input type="text" id="question" class="input" required placeholder="Enter you question"/>
+
+            <button id="submitButton" class="submitButton item">
+              <span>Submit</span>
+            </button>
+          </div>
+        </div>
+        <div class="container row">
+            <div>History</div>
+            <div id="history"></div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="index.js"></script>
+</html>
